@@ -1,0 +1,72 @@
+.book__tour {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);  // Làm mờ page
+    z-index: 99;
+}
+.card {
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    z-index: 99;
+
+    .info__book {
+        padding-top: 15px;
+        
+        .link__book {
+            padding-left: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            padding-top: -30px;
+            padding-top: 10px;
+        }
+
+        p {
+            padding-top: 15px;
+            padding-left: 10px;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .date__book {
+            display: flex;
+            flex-wrap: wrap;
+
+            .day {
+                width: 30%;
+            }
+        }
+
+        .count-book {
+            display: flex;
+            margin-top: 20px;
+        }
+    }
+
+    .btn-search__book {
+        position: absolute;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: -20px;
+        background: var(--btn-orange);
+        border: none;
+        cursor: pointer;
+        color: var(--white-color);
+    }
+
+    .btn-search__book:hover {
+        background: var(--btn-orange-hover);
+    }
+}
