@@ -5,7 +5,7 @@ const userSlice = createSlice({
   initialState: {
     current: JSON.parse(localStorage.getItem('user') || '{}'),
     settings: false,
-    byPass: false,
+    byPass: true,
   },
   reducers: {
     signUp(state, action) {

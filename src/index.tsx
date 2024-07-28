@@ -1,23 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
+import { I18nextProvider } from 'react-i18next';
 
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import './assets/css/grid.scss';
 import './assets/css/index.scss';
-import { AuthWrapper } from './components/AuthWrapper/AuthWrapper';
+import './assets/css/animation.scss';
 import store from './redux/store';
+import i18n from './i18n';
 import reportWebVitals from './reportWebVitals';
-import Auth from './routes/Auth';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-        <App />
+        <I18nextProvider i18n={i18n}>
+          <App />
+        </I18nextProvider>
       </Provider>
     </BrowserRouter>
   </React.StrictMode>,

@@ -1,15 +1,12 @@
-import React from 'react';
-
-import { AuthWrapper } from './components/AuthWrapper/AuthWrapper';
-
-import Auth from './routes/Auth';
+import { AuthWrapper } from './layouts/AuthWrapper/AuthWrapper';
+import SetUpPage from './routes/index';
 
 import './App.css';
 
 function App() {
   return (
     <AuthWrapper>
-      <Auth />
+      <SetUpPage />
     </AuthWrapper>
   );
 }

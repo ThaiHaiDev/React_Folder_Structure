@@ -1,11 +1,19 @@
-import { useState, useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
+import { t } from 'i18next';
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import Book from '../Book/Book';
+
+import Logo from '../../assets/imgMaster/logo.svg';
+import { RootState } from '../../redux/store';
+
 import './Navbar.scss';
+import LanguageSelected from '../../libs/LanguageSelected/LanguageSelected';
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(false);
   const refOne = useRef<HTMLInputElement | null>(null);
+
+  const user = useSelector((state: RootState) => state.user);
+  console.log('user', user);
 
   useEffect(() => {
     document.addEventListener('click', hideOnClickOutside, true);
@@ -14,42 +22,31 @@ const Navbar = () => {
 
   const hideOnClickOutside = (e: any) => {
     if (refOne.current && !refOne.current.contains(e.target)) {
-      setIsActive(false);
+      //   setIsActive(false);
     }
   };
 
   return (
     <div>
       <div className="navbar">
-        <NavLink to="#" className="logo">
+        <NavLink to="/" className="logo">
           <div className="sidebar__logo">
-            <img
-              src="https://cdn6.agoda.net/images/kite-js/logo/agoda/color-default.svg"
-              alt="company logo"
-              className="logo-bg"
-            />
+            <img src={Logo} alt="company logo" className="logo-bg" />
           </div>
         </NavLink>
-        <div className="navbar-right menu">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/" onClick={() => setIsActive(!isActive)}>
-            Book
+        <div className="navbar-right menu" style={{ display: 'flex' }}>
+          <LanguageSelected />
+          <NavLink to="/" end={true}>
+            {t('navbar.home')}
           </NavLink>
-          <NavLink to="/product">None</NavLink>
-          <NavLink to="/info-player">None</NavLink>
-          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="/intro-host">{t('navbar.host')}</NavLink>
+          <NavLink to="/list-room">{t('navbar.listroom')}</NavLink>
         </div>
-        <div className="navbar-right">
-          {/* <NavLink to="#" className="cart">
-                        <i className="bx bx-cart-alt"></i>
-                        <span className="badge">2</span>
-                    </NavLink> */}
-          <NavLink to="/login">Đăng nhập</NavLink>
-          <NavLink to="/signup">Đăng ký</NavLink>
+
+        <div className="navbar-right" style={{ display: 'flex' }}>
+          <NavLink to="/signin">{t('navbar.signin')}</NavLink>
         </div>
       </div>
-      {isActive && <Book refOne={refOne} />}
     </div>
   );
 };

@@ -1,11 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { LangType, LocalStorageKey } from '../shared/models';
 
 const globalSlice = createSlice({
   name: 'global',
   initialState: {
     mode: '',
     color: '',
-    language: 'vi',
+    language: LangType.Vi,
   },
   reducers: {
     setMode: (state, action) => {
@@ -27,7 +28,7 @@ const globalSlice = createSlice({
     },
 
     setLanguage: (state, action) => {
-      localStorage.setItem('i18n', action.payload);
+      localStorage.setItem(LocalStorageKey.LocalVN, action.payload);
       return {
         ...state,
         language: action.payload,

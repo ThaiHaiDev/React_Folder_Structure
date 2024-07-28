@@ -1,0 +1,131 @@
+{
+  "common": {
+    "signin": "Đăng nhập",
+    "signup": "Đăng ký",
+    "active": "Xác thực",
+    "retrievalPassword": "Lấy lại mật khẩu",
+    "convenient": "Hiện tất cả các tiện nghi",
+    "detail": "Chi tiết",
+    "booking": "Đặt phòng",
+    "edit": "Chỉnh sửa",
+    "close": "Thoát",
+    "continue": "Tiếp tục",
+    "uploadImage": "Tải ảnh lên",
+    "filter": "Bộ lọc",
+    "review": "Đánh giá",
+    "refundPolicy": "Chính sách trả phòng",
+    "cancelBooking": "Hủy đặt",
+    "yes": "Có",
+    "no": "Không",
+    "bookRightNow": "Đặt ngay hôm nay",
+    "love": "Thêm vào mục yêu thích",
+    "unlove": "Bỏ khỏi mục yêu thích",
+    "save": "Lưu",
+    "actived": "Kích hoạt"
+  },
+  "message": {
+    "signin": "Đăng nhập thành công",
+    "signup": "Đăng kí tài khoản thành công",
+    "activeAccout": "Xác thực tài khoản thành công",
+    "sendOTP": "Gửi OTP về email của bạn thành công",
+    "reSendOTP": "Chúng tôi đã gửi OTP lại đến email của bạn",
+    "changePassword": "Đổi mật khẩu thành công",
+    "love": "Đã thêm vào mục đã thích",
+    "unlove": "Đã xóa khỏi mục đã thích",
+    "warningSignin": "Để đặt thuê nhà, bạn cần đăng nhập!",
+    "bookingSuccess": "Đặt phòng thành công",
+    "addressEmpty": "Bạn không thể để trống địa chỉ",
+    "maxImage": "Vui lòng chọn đủ 5 hình",
+    "fullImage": "Bạn đã chọn vượt quá 5 hình yêu cầu",
+    "uploadImagePlease": "Vui lòng nhấn upload ảnh lên trước khi tiếp tục",
+    "fullinfo": "Vui lòng điền đầy đủ thông tin",
+    "postHomeSuccess": "Đăng kí thành công",
+    "cancelSuccess": "Hủy thành công",
+    "reviewSuccess": "Đánh giá thành công",
+    "updateSuccess": "Cập nhật thành công",
+    "isActiveAccount": "Tài khoản của bạn đã được kích hoạt",
+    "OTPActived": "Đã gửi OTP về gmail của bạn"
+  },
+  "validate": {
+    "emailRequire": "Email được yêu cầu",
+    "emailError": "Đây không phải là một email hợp lệ",
+    "passwordRequire": "Mật khẩu được yêu cầu",
+    "passwordMaxError": "Mật khẩu chỉ giới hạn 16 kí tự",
+    "fullnameRequire": "Họ tên được yêu cầu",
+    "passwordSpecialError": "Mật khẩu phải bao gồm chữ thường và kí tự in hoa, ít nhất 1 kí tự đặt biệt và 1 con số",
+    "passwordMinError": "Mật khẩu phải ít từ 6 kí tự ",
+    "passwordConfirmRequire": "Mật khẩu xác nhận được yêu cầu",
+    "passwordConfirmError": "Xác nhận mật khẩu không khớp với mật khẩu của bạn"
+  },
+  "contentMess": {
+    "messOTP_1": "Để bảo mật thông tin, chúng tôi cần bạn xác thực tài khoản. Chúng tôi đã gửi cho bạn mã OTP xác thực qua gmail ",
+    "messOTP_2": ". Bạn vui lòng kiểm tra gmail và nhập mã xác thực vào đây:",
+    "messReSendOTP": "Bạn không nhận được mã code, gửi lại?",
+    "changePassword": "Nhập địa chỉ email sử dụng để tạo tài khoản Yourtours và chúng tôi sẽ gửi link để đặt lại mật khẩu tài khoản đến bạn",
+    "confirmSendOTP": "Chúng tôi đã gửi OTP để thay đổi mật khẩu thông qua email. Vui lòng kiểm tra email của bạn.",
+    "FillOTP": "Nhập mã code mà chúng tôi đã gửi về gmail của bạn",
+    "countClient": "1 Người lớn, 0 Trẻ em, 0 Trẻ sơ sinh",
+    "address": "Vui lòng điền địa chỉ chi tiết",
+    "province": "Vui lòng chọn tỉnh thành",
+    "cancel": "Đã hủy",
+    "checkin": "Đã nhận phòng",
+    "checkout": "Đã trả phòng",
+    "beforeOneDay": "Chỉ được hủy phòng trước 1 ngày",
+    "beforeOneWeek": "Chỉ được hủy phòng trước 7 ngày"
+  },
+  "link": {
+    "rules": "Điều Khoản Sử Dụng",
+    "privacyPolicy": "Chính Sách Bảo Mật",
+    "forgotpassword": "Quên mật khẩu",
+    "signup": "Tạo tài khoản ngay",
+    "signin": "Đăng nhập ngay",
+    "viewDetail": "Xem chi tiết"
+  },
+  "title": {
+    "signin": "Đăng nhập",
+    "orSignin": "hoặc đăng nhập bằng",
+    "signup": "Đăng ký",
+    "retrievalPassword": "Lấy lại mật khẩu",
+    "newPassword": "Tạo mật khẩu mới"
+  },
+  "label": {
+    "email": "Địa chỉ Email",
+    "fullname": "Họ tên",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "emailVoucher": "Email (nhận voucher)",
+    "birthday": "Ngày sinh",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ"
+  },
+  "placeholder": {
+    "searchHome": "Nơi bạn muốn đến",
+    "nameHome": "Tên căn nhà",
+    "priceVND": "Đơn vị VND",
+    "feedback": "Phản hồi từ khách hàng"
+  },
+  "navbar": {
+    "home": "Trang chủ",
+    "host": "Trở thành chủ nhà",
+    "listroom": "Danh sách nhà",
+    "historyBookingClient": "Lịch sử đặt phòng",
+    "signin": "Đăng nhập",
+    "signup": "Đăng ký",
+    "signout": "Đăng xuất",
+    "profile": "Thông tin cá nhân",
+    "activeAccout": "Kích hoạt tài khoản"
+  },
+  "footer": {
+    "titleFooter": "Tiết kiệm thời gian và tiền bạc!",
+    "contentFooter": "Hãy đăng ký và chúng tôi sẽ gửi những ưu đãi tốt nhất cho bạn"
+  },
+  "language": {
+    "title": "Ngôn ngữ:",
+    "selectTitle": "Chọn ngôn ngữ",
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  }
+}

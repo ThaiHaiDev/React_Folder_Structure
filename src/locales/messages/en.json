@@ -1,0 +1,131 @@
+{
+  "common": {
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "active": "Active",
+    "retrievalPassword": "Retrieve password",
+    "convenient": "Show all utilities",
+    "detail": "Detail",
+    "booking": "Booking",
+    "edit": "Edit",
+    "close": "Close",
+    "continue": "Continue",
+    "uploadImage": "Upload image",
+    "filter": "Filter",
+    "review": "Review",
+    "refundPolicy": "Booking cancellation policy",
+    "cancelBooking": "Cancel booking",
+    "yes": "Yes",
+    "no": "No",
+    "bookRightNow": "Booking now",
+    "love": "Add to favorites",
+    "unlove": "Remove from favorites",
+    "save": "Save",
+    "actived": "Active"
+  },
+  "message": {
+    "signin": "Sign in successfully",
+    "signup": "Sign in successfully",
+    "activeAccout": "Verify account successfully",
+    "sendOTP": "Send otp successfully",
+    "reSendOTP": "Resend otp successfully",
+    "changePassword": "Change password successfully",
+    "love": "Added to favorites",
+    "unlove": "Removed from favorites",
+    "warningSignin": "To book a rental, you need to log in!",
+    "bookingSuccess": "Booking successfully",
+    "addressEmpty": "Address must be not blank",
+    "maxImage": "Please choose all 5 pictures",
+    "fullImage": "You have selected more than 5 required images",
+    "uploadImagePlease": "Please click upload photo before continue",
+    "fullinfo": "Please complete all information",
+    "postHomeSuccess": "Register successfully",
+    "cancelSuccess": "Cacnel successfully",
+    "reviewSuccess": "Review successfully",
+    "updateSuccess": "Update successfully",
+    "isActiveAccount": "Your account is actived",
+    "OTPActived": "OTP sent to your gmail"
+  },
+  "validate": {
+    "emailRequire": "Email is required",
+    "emailError": "This is not a valid email",
+    "passwordRequire": "Password is required",
+    "passwordMaxError": "Password is limited to 16 characters",
+    "fullNameRequire": "Fullname is required",
+    "passwordSpecialError": "Password must contain lowercase and uppercase letters, at least 1 special character and 1 number",
+    "passwordMinError": "Password must be at least 6 characters ",
+    "passwordConfirmRequire": "Confirmation password is required",
+    "passwordConfirmError": "Confirm password does not match your password"
+  },
+  "contentMess": {
+    "messOTP_1": "To keep your information secure, we need you to authenticate your account. We have sent you a verification OTP via gmail ",
+    "messOTP_2": ". Please check your gmail and enter the verification code here:",
+    "messReSendOTP": "You did not receive the code, resend it?",
+    "changePassword": "Enter the email address used to create Yourtours account and we will send you a link to reset your account password.",
+    "confirmSendOTP": "We have sent OTP to change password via email. Please check your email.",
+    "FillOTP": "Enter the code we sent to your gmail",
+    "countClient": "1 Adult, 0 Children, 0 Baby",
+    "address": "Please fill in the detailed address",
+    "province": "Please select a city",
+    "cancel": "Cancelled",
+    "checkin": "Checked in",
+    "checkout": "Checked out",
+    "beforeOneDay": "Cancellation only 1 day in advance",
+    "beforeOneWeek": "Cancellation only 7 days in advance"
+  },
+  "link": {
+    "rules": "Terms Of Use",
+    "privacyPolicy": "Privacy Policy",
+    "forgotpassword": "Forgot password",
+    "signup": "Sign up now",
+    "signin": "Sign in now",
+    "viewDetail": "View detail"
+  },
+  "title": {
+    "signin": "Sign in",
+    "orSignin": "or Sign in with",
+    "signup": "Sign up",
+    "retrievalPassword": "Retrieve password",
+    "newPassword": "Create a new password"
+  },
+  "label": {
+    "email": "Email",
+    "full_name": "Full name",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "emailVoucher": "Email (get voucher)",
+    "birthday": "Birthday",
+    "phone": "Phone",
+    "address": "Address",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female"
+  },
+  "placeholder": {
+    "searchHome": "Where you want to go",
+    "nameHome": "Name of the house",
+    "priceVND": "Unit VND",
+    "feedback": "Feedback from customers"
+  },
+  "navbar": {
+    "home": "Home",
+    "host": "Become a owner",
+    "listroom": "List of homes",
+    "historyBookingClient": "Booking history",
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "signout": "Log out",
+    "profile": "Profile infomation",
+    "activeAccout": "Active account"
+  },
+  "footer": {
+    "titleFooter": "Save time and money!",
+    "contentFooter": "Sign up and we'll send you the best deals"
+  },
+  "language": {
+    "title": "Language:",
+    "selectTitle": "Select language",
+    "en": "English",
+    "vi": "Vietnamese"
+  }
+}
