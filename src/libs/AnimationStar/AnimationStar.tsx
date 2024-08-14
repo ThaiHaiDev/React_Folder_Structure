@@ -1,13 +1,14 @@
 import './AnimationStar.scss';
 
-const AnimationStar = (props: any) => {
-    return (
-        <div className="start-background">
-            <div className="stars"></div>
-            <div className="stars2"></div>
-            <div className="stars3"></div>
-        </div>
-    );
+const AnimationStar = () => {
+  return (
+    <div className="start-background">
+      <h1>Hello world! I am using React</h1>
+      <div className="stars"></div>
+      <div className="stars2"></div>
+      <div className="stars3"></div>
+    </div>
+  );
 };
 
 export default AnimationStar;
